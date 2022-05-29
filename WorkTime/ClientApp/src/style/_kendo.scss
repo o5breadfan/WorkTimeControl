@@ -1,0 +1,31 @@
+﻿.k-button a {
+  color: $base-text;
+  
+  &:hover{
+    color: $base-text;
+    text-decoration: none;
+  }
+}
+
+.k-button.k-button-solid-primary {
+  &:hover {
+    background-color: $button-primary-hover;
+    border-color: $button-primary-hover;
+  }
+  & a {
+    color: white;
+    
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.k-grid td a {
+  color: $link-text;
+  &:hover{
+    color: $link-hover-text;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,12 @@
+﻿ol.breadcrumb {
+  background-color: #f5f5f5;
+  
+  & a {
+    color: $link-text;
+    
+    &:hover {
+      color: $link-hover-text;
+      text-decoration: none;
+    }
+  }
+}
